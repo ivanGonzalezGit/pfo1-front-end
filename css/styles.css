@@ -1,9 +1,75 @@
-/*
-font-optical-sizing: auto; 
-font-style: normal;
-font-variation-settings:"wdth" 100;
-*/
 * {
-    font-family: "Roboto", sans-serif;
-    font-weight: 400;
-  }
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+}
+
+body {
+  display: flex;
+  margin: auto;
+  width: 1200px;
+  height: auto;
+  background: #cad2c5;
+  color: #2f3e46;
+}
+
+#continer {
+  display: flex;
+}
+
+h2 {
+  display: inline-block;
+}
+
+h3 {
+  display: inline-block;
+}
+
+ul{
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  text-decoration: none;
+}
+
+header {
+  background: #354f52;
+  color: #cad2c5;
+}
+
+/*
+greap en el header
+*/
+
+aside{
+  width: 20%;
+  height: auto;
+  background: #84a98c;
+}
+
+section{
+  display: inline;
+}
+section div{
+  display: inline-block;
+}
+article {
+  display: inline-block;
+}
+
+main{
+  width: 80%;
+  background: blue;
+}
+
+#foto-logo {
+  width: 150px;
+  height: 150px;
+}

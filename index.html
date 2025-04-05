@@ -10,26 +10,70 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header>
-        <div id="foto">
-            <img src="#" alt="foto de Iván">
-        </div>
-        <h1>Portafolio de Iván González</h1>
-        <nav>
-            <a href="/">Sobre Mí</a>
-            <a href="proyectos.html">Proyectos</a>
-            <a href="contacto.html">Contacto</a>
-        </nav>
-    </header>
+    <div id="container">
 
-    <main>
-        <h2>Sobre mi</h2><br>
-        <p>Soy Iván González, tengo 43 años. Soy casado y papá de dos nenas</p>
-    
-    
-    </main>
+        <header>
 
-    <footer>
-    </footer>
+            <div id="div-logo">
+                <img id="foto-logo" src="/img/ivan.jpeg" alt="foto de Iván">
+            </div>
+
+            <div id="title">
+                <h1>Portafolio de Iván González</h1>
+            </div>
+
+            <nav>
+                <a href="/">Sobre Mí</a>
+                <a href="proyectos.html">Proyectos</a>
+                <a href="contacto.html">Contacto</a>
+            </nav>
+
+        </header>
+
+        <aside>
+            <ul>
+                <li><a href="#">Sobre mi</a></li>
+                <li><a href="#">tecnologias</a></li>
+                <li><a href="#peliculas">peliculas</a> </li>
+            </ul>
+        </aside>
+
+        <main>
+            <article>
+
+                <section id="sobre-mi">
+                    <h2>Sobre mi</h2><br>
+                </section>
+        
+                <section id="tecnologias">
+                    <h2>Tecnologías</h2><br>
+                </section>
+
+                <section id="peliculas">
+                    <h2>Películas</h2><br>
+
+                    <div class="pelicula">
+                        <h3>The Matrix</h3>
+                        <img src="/img/matrix.jpg" alt="Matrix">
+                    </div>
+
+                    <div class="pelicula">
+                        <h3>hannibal</h3>
+                        <img src="/img/hannibal.jpg" alt="hannibal">
+                    </div>
+
+                    <div class="pelicula">
+                        <h3>Eterno Resplandor</h3>
+                        <img src="/img/eterno.jpg" alt="">
+                    </div> 
+                </section>
+                
+            </article>
+        </main>
+    
+        <footer>
+        </footer>
+
+    </div>
 </body>
 </html>
