@@ -1,30 +1,26 @@
 * {
-  box-sizing: border-box;
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
   font-family: "Roboto", sans-serif;
   font-weight: 400;
 }
 
 body {
-  display: flex;
   margin: auto;
-  width: 1200px;
+  width: 900px;
   height: auto;
   background: #cad2c5;
   color: #2f3e46;
 }
 
-#continer {
+#container {
   display: flex;
-}
+  flex-wrap: wrap;
+  flex-direction: row;
+  width: 100%;
+  height: auto;
 
-h2 {
-  display: inline-block;
-}
-
-h3 {
-  display: inline-block;
 }
 
 ul{
@@ -32,7 +28,13 @@ ul{
 }
 
 a {
+  padding: 5px;
   text-decoration: none;
+  color: #cad2c5;
+}
+
+aside a {
+  color: #2f3e46;
 }
 
 li {
@@ -40,23 +42,46 @@ li {
 }
 
 header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: auto;
   background: #354f52;
   color: #cad2c5;
 }
 
-/*
-greap en el header
-*/
+#div-logo{
+  width: 30%;
+  height: auto;
+}
+
+#foto-logo{
+  padding: 10px;
+}
+
+#title{
+  width: 70%;
+  height: auto;
+}
+
+nav{
+  padding: 10px;
+  display: flex;
+  justify-content: end;
+  width: 100%;
+  height: auto;
+  background: #354f52;
+}
 
 aside{
-  width: 20%;
+  width: 15%;
   height: auto;
+  align-items: center;
   background: #84a98c;
 }
 
-section{
-  display: inline;
-}
+
 section div{
   display: inline-block;
 }
@@ -65,11 +90,17 @@ article {
 }
 
 main{
-  width: 80%;
-  background: blue;
+  width: 85%;
+  height: auto;
 }
 
 #foto-logo {
   width: 150px;
   height: 150px;
+}
+
+footer{
+  width: 100%;
+  height: 50px;
+  background-color: black;
 }
