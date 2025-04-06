@@ -8,7 +8,7 @@
 
 body {
   margin: auto;
-  width: 900px;
+  width: 1000px;
   height: auto;
   background: #cad2c5;
   color: #2f3e46;
@@ -55,14 +55,20 @@ header {
   width: 30%;
   height: auto;
 }
-
-#foto-logo{
+#foto-logo {
+  width: 150px;
+  height: 150px;
   padding: 10px;
 }
 
 #title{
   width: 70%;
   height: auto;
+}
+
+h1{
+  font-size: 36px;
+  font-weight: bold;
 }
 
 nav{
@@ -81,24 +87,27 @@ aside{
   background: #84a98c;
 }
 
-
-section div{
-  display: inline-block;
-}
-article {
-  display: inline-block;
-}
-
 main{
   width: 85%;
   height: auto;
 }
 
-#foto-logo {
-  width: 150px;
-  height: 150px;
+h2{
+  color:#cad2c5;
 }
 
+.div-subtitulos{
+  width: 100%;
+  height: 150px;
+  justify-content: center;
+  background: #2f3e46;
+}
+#sobre-mi{
+  background-image: url("/img/sobremi.jpeg");
+}
+#proyectos{
+  background-image: url("/img/proyectos.jpeg");
+}
 footer{
   width: 100%;
   height: 50px;
