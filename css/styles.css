@@ -52,7 +52,7 @@ header {
 }
 
 #div-logo{
-  width: 30%;
+  width: 25%;
   height: auto;
 }
 #foto-logo {
@@ -62,12 +62,12 @@ header {
 }
 
 #title{
-  width: 70%;
+  width: 75%;
   height: auto;
 }
 
 h1{
-  font-size: 36px;
+  font-size: 48px;
   font-weight: bold;
 }
 
@@ -93,7 +93,11 @@ main{
 }
 
 h2{
-  color:#cad2c5;
+  padding: 10px;
+  font-weight: bold;
+  font-size: 30px;
+  text-shadow: 1px 1px 2px black;
+  color: #ff5722;
 }
 
 p {
