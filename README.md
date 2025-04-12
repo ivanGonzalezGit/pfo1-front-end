@@ -3,6 +3,10 @@ Esta es una página web publicada en github, correspondiente al TP1, Práctica P
 
 El objetivo de esta página es hacer un portfolio web personal, creando la estructura en HTML, darle estilo vinculándola con CSS y publicándola en Github Pages.
 
+Página Github:
+
+https://ivangonzalezgit.github.io/pfo1-front-end/
+
 Las tareas consignadas son las siguientes:
 
 • Estructura del Proyecto: 
@@ -14,7 +18,7 @@ Las tareas consignadas son las siguientes:
 • Repositorio y Publicación: 
 [X] Repositorio en GitHub creado. 
 [X] Proyecto subido al repositorio. 
-[ ] Proyecto publicado utilizando GitHub Pages. 
+[X] Proyecto publicado utilizando GitHub Pages. 
 [ ] En el "README.md" se indica la URL de GitHub Pages. 
 
 • Uso de Google Fonts: 
