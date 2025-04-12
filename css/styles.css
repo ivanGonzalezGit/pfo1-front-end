@@ -122,14 +122,66 @@ h2{
 }
 
 p {
+display: flex;
   padding: 10px 10px 20px 10px;
 }
 
 .div-subtitulos {
   width: 100%;
   height: 150px;
-  justify-content: center;/**/
   background: #2f3e46;
+}
+
+.contenedor-articulo
+{
+  padding: 10px 10px 20px 10px;
+  display: flex;
+  flex-direction: row;
+}
+
+.fotos
+{
+  width: 200px;
+  height: 200px;
+  margin: 5px;
+}
+
+#tarjetas
+{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  background: blueviolet;
+}
+
+.tarjeta
+{
+  margin: 10px;
+  background: blue;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 270px;
+  height: 500px;
+  border-radius: 5px;
+  box-shadow: 1px 1px 2px;
+}
+
+.foto-tarjeta
+{
+  display: inline-block;
+  width: 200px;
+  height: 200px;
+}
+
+.parrafo-tarjeta
+{
+  background: red;
+  display: inline-block;
+  width: 250px;
+  height: 250px;
 }
 
 #sobre-mi {
@@ -146,13 +198,11 @@ p {
 #tecnologias {
   background-image: url("/img/tecnologias.jpeg");
   background-size: cover;
-
 }
 
 #peliculas {
   background-image: url("/img/viaje.jpeg");
   background-size: cover;
-
 }
 
 #zona-peliculas
@@ -163,8 +213,18 @@ p {
   align-items: center;
 }
 
-#zona-peliculas h2 {
+#zona-peliculas h2 
+{
   color: orangered;
+}
+
+.contenedor-peliculas
+{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
 }
 
 footer{
