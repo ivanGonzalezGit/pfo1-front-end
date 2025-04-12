@@ -44,23 +44,27 @@ aside
   height: auto;
   padding-top: 50px;
   background: #84a98c;
+  background-image: url("/img/lateral.jpeg");
 }
 
 aside a 
 {
-  color: #2f3e46;
+  color:  #cad2c5;
+  background-color: #2f3e46;
+  border-radius: 5px;
 }
 
 #lista-desplazable
 {
-  margin: auto;
-  position: sticky;
+  margin-top: 50px;
   top: 50px;
+  position: sticky;
 }
 
 li 
 {
   text-decoration: none;
+  margin: 15px;
 }
 
 header 
@@ -113,6 +117,11 @@ main{
   height: auto;
 }
 
+section
+{
+  margin: 50px 10px;
+}
+
 h2{
   padding: 10px;
   font-weight: bold;
@@ -129,6 +138,7 @@ display: flex;
 .div-subtitulos {
   width: 100%;
   height: 150px;
+  margin: 20px 0px 50px 0px;
   background: #2f3e46;
 }
 
@@ -152,13 +162,12 @@ display: flex;
   flex-direction: row;
   justify-content: center;
   flex-wrap: wrap;
-  background: blueviolet;
 }
 
 .tarjeta
 {
   margin: 10px;
-  background: blue;
+  background: #d9d9d9;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -167,6 +176,13 @@ display: flex;
   height: 500px;
   border-radius: 5px;
   box-shadow: 1px 1px 2px;
+}
+
+/* Una mejora es cambiar con javascript el comportamiento hover, por que cuando paso el mouse por la foto de la tarjeta no me cambia el color del texto del párrafo de la tarjeta*/
+
+.tarjeta:hover
+{
+  background: #2f3e46;
 }
 
 .foto-tarjeta
@@ -178,10 +194,14 @@ display: flex;
 
 .parrafo-tarjeta
 {
-  background: red;
   display: inline-block;
   width: 250px;
   height: 250px;
+}
+
+.parrafo-tarjeta:hover
+{
+  color: #d9d9d9;
 }
 
 #sobre-mi {
@@ -203,6 +223,11 @@ display: flex;
 #peliculas {
   background-image: url("/img/viaje.jpeg");
   background-size: cover;
+}
+
+.li-proyectos
+{
+  color: orangered;
 }
 
 #zona-peliculas
@@ -227,9 +252,55 @@ display: flex;
   align-items: center;
 }
 
+#tabla
+{
+  margin: auto;
+  width: 300px;
+  height: 200px;
+  text-align: center;
+}
+
+table
+{
+  background: #84a98c;
+  border: #2f3e46 1px solid;
+}
+
+th
+{
+  padding: 5px;
+  font-weight: bold;
+  background: #ff5722;
+  border: #2f3e46 1px solid;
+}
+
+td
+{
+  padding: 5px;
+  border: #2f3e46 1px solid;
+}
+
+#contacto
+{
+  margin: auto;
+  width: 400px;
+  height: 400px;
+  text-align: center;
+}
+
+#button-form
+{
+  padding: 10px 30px;
+  border-radius: 5px;
+  color: #d9d9d9;
+  background: #2f3e46;
+} 
+
 footer{
+  padding: 50px;
   width: 100%;
-  height: 50px;
+  height: auto;
+  color: #d9d9d9;
   background-color: black;
 }
 
