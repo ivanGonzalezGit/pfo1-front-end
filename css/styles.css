@@ -323,7 +323,10 @@ footer{
   {
   flex-direction: column;
   }
-
+  .contenedor-articulo
+  {
+    flex-direction: column;
+  }
   aside
   {
     display: none;
