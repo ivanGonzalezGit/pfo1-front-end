@@ -44,7 +44,7 @@ aside
   height: auto;
   padding-top: 50px;
   background: #84a98c;
-  background-image: url("img/lateral.jpeg");
+  background-image: url("../img/lateral.jpeg");
 }
 
 aside a 
@@ -205,23 +205,23 @@ display: flex;
 }
 
 #sobre-mi {
-  background-image: url("img/sobremi.jpeg");
+  background-image: url("../img/sobremi.jpeg");
   background-size: cover;
 }
 
 #proyectos {
-  background-image: url("img/proyectos.jpeg");
+  background-image: url("../img/proyectos.jpeg");
   background-size: cover;
 
 }
 
 #tecnologias {
-  background-image: url("img/tecnologias.jpeg");
+  background-image: url("../img/tecnologias.jpeg");
   background-size: cover;
 }
 
 #peliculas {
-  background-image: url("img/viaje.jpeg");
+  background-image: url("../img/viaje.jpeg");
   background-size: cover;
 }
 
